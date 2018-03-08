@@ -284,15 +284,13 @@ input[type="submit"] {
         margin: 0;
     }
     
-        
-    #logo h1 {
-        
+    #logo {
+        padding-bottom: 15px;
     }
     
-   #logo h1, #logo2 h1 {
+    #logo h1, #logo2 h1 {
         width: 100%;
-        background-size: 98% auto; 
-       padding-bottom: 30px;
+        background-size: contain;
     }
     
     .checkbox label {
