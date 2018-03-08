@@ -279,15 +279,19 @@ input[type="submit"] {
     }
 }
 
-@media (max-width: 510px) {
+@media (max-width: 540px) {
+    .col {
+        margin: 0;
+    }
+    
     #logo2 h1 {
         width: 100%;
         margin-top: 30px;
-        background-size: 98% auto; 
+        background-size: 98% 100%; 
     }
     
     #logo h1, #logo2 h1 {
-        background-size: 98% auto;
+        background-size: 100% auto;
         
     }
     
