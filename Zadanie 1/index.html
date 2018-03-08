@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Weekly WebDev Challenge - zadanie nr 1</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+	<body>
+			 
+        <div id="logo">
+            <h1>Masteralb</h1>
+        </div>
+        
+         <div id="container">
+        
+                <div class="col">
+				    
+                    <h1>Register Form</h1>
+				        
+                    <div class="form_out">
+					
+                        <form class="form_in">
+                            
+                            <div class="input_with_icon">
+                                <input type="text" placeholder="Username" class="user" required>
+                            </div>
+                            
+                            <div class="input_with_icon">
+                                <input type="password" class="password" placeholder="Password" required>
+                            </div>
+                            
+                            <div class="input_with_icon">
+                                <input type="password" class="password" placeholder="Confirm Password" required>
+                            </div>
+                            
+                            <div class="input_with_icon">
+                                <input type="email" class="email" placeholder="Email" required>
+                            </div>
+                           
+                            <div class="input_with_icon">
+                                <select class="location" required>
+                                  <option>Your Location</option>
+                                  <option>Berlin</option>
+                                  <option>Paris</option>
+                                  <option>Warsaw</option>
+                                </select>
+                            </div>
+                            
+                            <div class="checkbox">
+                                <input type="checkbox" id="checkbox1" name="terms">
+                                <label for="checkbox1">I have read and accept the terms of use.</label>
+                            </div>
+                          
+                            <input type="submit" class="btn btn_green btn_large" value="Sign up">
+                        </form>
+                        
+				    </div>
+				
+				<h1>Send Email</h1>
+				<div class="form_out">
+					<form class="form_in">
+                        
+                        <div class="input_with_icon">
+                            <input type="text" name="name" class="user" placeholder="Your Name">
+                        </div>
+                        
+                        <div class="input_with_icon">
+                            <input type="email" name="email" class="email" placeholder="Your Email">
+                        </div>
+                        
+					<textarea id="message">Type your message</textarea>
+                
+                    <div class="checkbox">
+                        <input type="checkbox" id="checkbox2" name="send_email">
+                        <label for="checkbox2">Send a copy to my Email</label>
+                    </div>
+                    
+					<input type="submit" class="btn btn_green btn_large" value="Send Email">
+                        
+					</form>
+				</div>
+            </div>
+			
+			<div class="col">
+			
+				<h1>Sign In Form</h1>
+                
+				<div class="form_out">
+					<form class="form_in">
+                       
+                        <div class="input_with_icon">
+				            <input type="text" class="user" placeholder="Username" required>
+                        </div>
+                        
+                        <div class="input_with_icon">
+                            <input type="password" class="password" placeholder="Password" required>
+                        </div>
+                        
+						<div class="checkbox">
+                            <input type="checkbox" name="remember" id="checkbox3">
+                            <label for="checkbox3">Remember me</label>
+                        </div>
+                        
+                        
+						<input type="submit" class="btn btn_green btn_small btn_right" value="Sign in">
+					</form>
+				</div>
+				
+				<h1>Recover Form</h1>
+				<div class="form_out">
+					<form class="form_in">
+                        
+                        <div class="input_with_icon">
+                            <input type="email" class="email" placeholder="Enter your Email" required>
+                        </div>
+                        
+                        <div class="input_with_icon">
+                            <input type="tel" class="phone" placeholder="Enter your Phone number" required>
+                        </div>
+                        
+						<input type="submit" class="btn btn_green btn_small" value="Send">
+						<input type="submit" class="btn btn_green btn_small btn_right" value="Done" disabled>
+                        
+					</form>
+				</div>
+				
+				<h1>Subscribe Form</h1>
+                
+				<div class="form_out">
+					<form class="form_in">
+                        
+                        <div class="input_with_icon">
+				            <input type="email" name="email" class="email" placeholder="Enter your Email" required>
+                        </div>
+                        
+						<input type="submit" class="btn btn_green btn_small" value="Subscribe">
+						<input type="submit" class="btn btn_red btn_small btn_right" value="No, Thanks">
+					</form>
+				</div>
+                
+                <div id="logo2">
+                    <h1>Masteralb2</h1>
+				</div>	
+				
+			</div>
+        
+        </div>
+        
+	</body>
+
+</html>
