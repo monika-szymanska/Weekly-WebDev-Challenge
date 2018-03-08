@@ -284,15 +284,15 @@ input[type="submit"] {
         margin: 0;
     }
     
-    #logo2 h1 {
-        width: 100%;
-        margin-top: 30px;
-        background-size: 98% 100%; 
+        
+    #logo h1 {
+        
     }
     
-    #logo h1, #logo2 h1 {
-        background-size: 100% auto;
-        
+   #logo h1, #logo2 h1 {
+        width: 100%;
+        background-size: 98% auto; 
+       padding-bottom: 30px;
     }
     
     .checkbox label {
@@ -304,6 +304,3 @@ input[type="submit"] {
         margin: 0;
     }
 }
-
-@media (max-width: )
-    
