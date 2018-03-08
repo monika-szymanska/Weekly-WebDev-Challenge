@@ -16,10 +16,9 @@ body {
 
 /* logo */
 
-#logo {
-    width: 100%;
+#logo, logo2 {
+    max-width: 100%;
     margin-top: 60px;
-    
 }
 
 #logo h1 {
@@ -28,17 +27,14 @@ body {
     background: url(images/logo-top.png) no-repeat;
     background-position: center top;
     opacity: 0.3;
-    
 }
 
 #logo2 h1{
     text-indent: -10000px;
     background: url(images/logo-bottom.png) no-repeat;
     height: 200px;
-    opacity: 0.3;
-    width: 100%;
-    margin-top: 60px;
     margin-left: 25px;
+    opacity: 0.3;
     
 }
 
@@ -96,8 +92,6 @@ input[type="text"], input[type="password"], input[type="email"], input[type="tel
     box-sizing: border-box;
 }
 
-/*f0f0f0, f6f6f6*/
-
 input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="tel"]:focus, select:focus, textarea:focus {
     border-color: #8ccc27;
     box-shadow: 0 0 8px 0 #8ccc27;
@@ -122,6 +116,7 @@ textarea {
     resize: none;
     margin: 0 2.5%;
     outline: none;
+    border-color: #c6c6c6;
     border-radius: 5px;
     padding: 10px;
 }
@@ -275,12 +270,36 @@ input[type="submit"] {
     
     .form_out {
         max-width: 400px;
-        min-width: 345px;
+        width: 100%;
         margin: auto;
     }
     
     .checkbox label {
          font-size: 16px;
     }
-    
 }
+
+@media (max-width: 510px) {
+    #logo2 h1 {
+        width: 100%;
+        margin-top: 30px;
+        background-size: 98% auto; 
+    }
+    
+    #logo h1, #logo2 h1 {
+        background-size: 98% auto;
+        
+    }
+    
+    .checkbox label {
+        display: block;
+        max-width: 88%;
+    }
+    
+    .checkbox {
+        margin: 0;
+    }
+}
+
+@media (max-width: )
+    
